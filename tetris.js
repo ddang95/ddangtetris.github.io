@@ -56,6 +56,8 @@ var rotationTurns = 5;
 var keyCombo = 1;
 
 // all possible shapes represented as array of arrays
+// -1s are empty spaces, 1 or 2 represents possible squares for rotation,
+//  0 represents a block
 const Shapes = 
 {
     LShape: [[-1, -1], [0, -1], [0, 0], [0, 1]],
@@ -70,7 +72,6 @@ const Shapes =
 // initiates the game when windown is open
 function init() 
 {
-    
     keyCombo = 1;
     createGrid();
     selectShape();
