@@ -1,0 +1,35 @@
+canvas {
+    position: absolute;
+    align-self: center;
+    left: 25%;
+    width: 50%;
+    z-index: 1;
+    text-align: center;
+}
+
+#startButton{
+    font-family: bold, monospace;
+    border-color: red;
+    fill: tomato;
+    background-color: tomato;
+    position: absolute;
+    top: 75%;
+    left: 58%;
+    width: 100px;
+    height: 100px;
+    z-index: 9;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+body {
+    background-color: black;
+}
+
+#controlDisplay {
+    color: white;
+    background-color:black;
+    font-family: bold, monospace;
+    padding-top: 20%; 
+    padding-left: 15%;
+}
