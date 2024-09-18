@@ -1,4 +1,4 @@
-// sets variable to the canvas html object
+// sets variable to the DOM canvas
 var canvas = document.querySelector('#board');
 
 // canvas object context
